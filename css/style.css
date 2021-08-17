@@ -75,8 +75,8 @@ body{
     color: black;
     background: transparent;
     border: 1px solid black;
-    border-radius: 20px;
-    background: rgb(192, 158, 158);
+    /* border-radius: 20px; */
+    /* background: rgb(192, 158, 158); */
     box-shadow: 1px 1px 5px rgb(168, 168, 238);
 }
 .password
@@ -87,8 +87,8 @@ body{
 { 
     color: black;
     border: 1px solid black;
-    background: rgb(192, 158, 158);
-    border-radius: 20px;
+    /* background: rgb(192, 158, 158); */
+    /* border-radius: 20px; */
     box-shadow: 1px 1px 9px rgb(0, 0, 0);
 }
 .form-check-label-light{
