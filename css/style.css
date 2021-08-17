@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-color: rgb(5, 6, 20);
+    /* background-color: rgb(255, 255, 255); */
+    color: white;
+    backdrop-filter: blur(0.5px);
+    overflow: hidden;
+}
+.outer1{
+    border: 1px solid rgb(69, 69, 228);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(56, 56, 223);
+}
+.btn{
+    height: 36px;
+    width: 295px;
+    color: white;
+    /* background-color: black; */
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-light{
+    height: 36px;
+    width: 295px;
+    color: black;
+    background-color:rgb(192, 158, 158);
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section{
+    display: flex;
+     height: 100vh; 
+    /* horizontally */
+    align-items: center;  
+    /* vertically */
+    justify-content: center; 
+}
+.container{
+    border: 1px solid rgb(162, 158, 218) ;
+    box-shadow: 5px 5px 20px hsl(0, 64%, 22%) , 5px 10px 20px white inset;
+    border-radius: 1px 90px;
+    width: 25rem;
+    height: 31rem;
+    display: flex;
+    /* horizontally */
+    align-items: center;  
+    /* vertically */
+    justify-content: center;  
+}
+.container-light{
+    border: 1px solid rgb(162, 158, 218) ;
+    box-shadow: 5px 5px 20px hsl(0, 90%, 49%) , 5px 10px 20px rgb(0, 0, 0) inset;
+    border-radius: 1px 90px;
+    width: 25rem;
+    height: 31rem;
+    display: flex;
+    /* horizontally */
+    align-items: center;  
+    /* vertically */
+    justify-content: center;  
+}
+.username
+{
+    color: antiquewhite;
+}
+.username-light
+{
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgb(192, 158, 158);
+    box-shadow: 1px 1px 5px rgb(168, 168, 238);
+}
+.password
+{   
+    color: antiquewhite;
+}
+.password-light
+{ 
+    color: black;
+    border: 1px solid black;
+    background: rgb(192, 158, 158);
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(0, 0, 0);
+}
+.form-check-label-light{
+color: black;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.inp::placeholder {
+    color: rgb(55, 36, 143);
+    /* text-shadow: 0px 0px 4px rgb(255, 255, 255); */
+    opacity: 1; 
+  }
+.inp-d::placeholder {
+    color: rgb(0, 0, 0);
+    /* text-shadow: 0px 0px 4px rgb(255, 255, 255); */
+    opacity: 1; 
+  }
+  .admin{
+      color: white;
+    font-style:oblique;
+    text-shadow: 1px 1px 5px rgb(44, 107, 241);
+    }
+    .admin-light{
+        color: black;
+        font-style:oblique;
+        text-shadow: 1px 1px 5px rgb(44, 107, 241);
+    }
+  .in
+  {
+      width: 300px;
+  }
+.light{
+    background-color: rgb(238,238,238);
+    /* color: #000000; */
+   
+     text-shadow: 1px 1px 5px rgb(44, 107, 241);
+}
+btn:hover:before{
+transform: scale(0);
+transform: 0.5s;
+}
